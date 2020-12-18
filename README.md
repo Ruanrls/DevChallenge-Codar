@@ -1,73 +1,30 @@
-<br />
-<p align="center">
-  <a href="http://www.freepik.com">
-    <img src="https://i.ibb.co/stqTkc6/video-call.png" alt="Logo" width="250" height="200">
-  </a>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-  <h3 align="center">Codar.</h3>
+## Getting Started
 
-  <p align="center">
-    Site de uma empresa que desenvolve sites
-       <br />
-    <br />
-    <a href="https://github.com/Lorenalgm/codar">Desafio</a>
-    ·
-    <a href="https://www.linkedin.com/in/lorenagmontes/">Contato</a>
-  </p>
-</p>
+First, run the development server:
 
-## Índice
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-* [Devchallenge](#devchallenge) 
-* [Desafio](#desafio)
-* [Techs](#techs)
-* [Como começar](#como-começar)
-* [Dicas](#dicas)
-  * [Cores](#cores)
-  * [Modelo](#modelo)
-  * [Imagens](#imagens)
-  * [Tipo de fonte](#tipo-de-fonte)
-* [Compartilhe](#compartilhe)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador!
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-# Desafio
-Seu desafio é criar uma página sobre uma empresa que desenvolve sites. O modelo final está disponível na pasta "design"
+## Learn More
 
-<img src="https://i.ibb.co/2gB9Hkc/codar-mobile.png" width="380" height="380">
-<img src="https://i.ibb.co/wpnzvcs/codar-desktop.jpg" width="580" height="380">
+To learn more about Next.js, take a look at the following resources:
 
-# Techs: 
-HTML<br>
-CSS
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-# Como começar:
-1 - Use esse template ou clone esse repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade :)<br>
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-# Requisitos:
-- Sua página deve se parecer o mais próximo possível ao modelo que está disponível na pasta "design"<br>
-- Sua página deve ser responsiva
+## Deploy on Vercel
 
-# Dicas
-## Cores:
-Vermelho: #D6000D
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Modelo:
-O modelo está disponível na pasta `./design`<br>
-
-## Imagens
-As imagens utilizadas estão disponíveis na pasta `./assets`<br>
-Para os ícones, é recomendada a utilização de uma biblioteca, como o Font Awesome
-
-## Tipo de fonte:
-- Roboto
-
-# Compartilhe!
-Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
-Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
-
-Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
