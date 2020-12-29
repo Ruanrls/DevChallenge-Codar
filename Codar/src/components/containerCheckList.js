@@ -1,60 +1,77 @@
 import styled from 'styled-components'
 import Image from 'next/image'
 import Theme from '../../public/theme'
+import Button from '../components/button'
+import Container from '../components/container'
 
 const CheckList = () => {
 
     return (
-        <Container style={{ marginTop: 100 }}>
-            <ContainerImage>
-                <Image
-                    src="/coding.png"
-                    width={500}
-                    height={500}
-                />
-            </ContainerImage>
+        <>
+            <Container
+                style={{ marginTop: '100px' }}
+                mediaOptions=" order: 1; flex-direction: row;"
+                align="center"
+                column
+            >
+                <Container mediaOptions="order: 2">
+                    <ContainerImage>
+                        <Image
+                            src="/coding.png"
+                            width={500}
+                            height={500}
+                        />
+                    </ContainerImage>
+                </Container>
+                <Container mediaOptions="order: 1">
+                    <ul style={{ listStyle: 'none' }}>
+                        <ListElement>Domínio personalizado</ListElement>
+                        <ListElement>Hospedagem</ListElement>
+                        <ListElement>Site responsivo</ListElement>
+                        <ListElement>Redes sociais</ListElement>
+                        <ListElement>Chat online</ListElement>
+                        <ListElement>Blog integrado</ListElement>
+                    </ul>
+                </Container>
+            </Container>
 
-            <ContainerList>
-                <ul style={{ listStyle: 'none' }}>
-                    <ListElement>Domínio personalizado</ListElement>
-                    <ListElement>Hospedagem</ListElement>
-                    <ListElement>Site responsivo</ListElement>
-                    <ListElement>Redes sociais</ListElement>
-                    <ListElement>Chat online</ListElement>
-                    <ListElement>Blog integrado</ListElement>
-                </ul>
-            </ContainerList>
-        </Container>
+
+            <Container >
+                <Block />
+
+                <Container
+                    style={{ height: '140px', marginTop: '60px' }}
+                    column align="center" justify="space-evenly"
+                    flex="4"
+                    mediaOptions="align-items: flex-start;"
+                >
+                    <text style={{ fontWeight: 'bolder', fontSize: 20 }}>
+                        Nossa equipe está à disposição!
+                    </text>
+
+                    <Container
+                        style={{ width: '45%' }}
+                        column
+                        justify="space-evenly"
+                        mediaOptions="flex-direction: row;"
+                    >
+                        <Input placeholder="Celular" />
+                        <Button >
+                            Ligamos para você
+                        </Button>
+                    </Container>
+                </Container>
+
+                <Block />
+            </Container>
+        </>
     )
 
 }
 
-const Container = styled.div` 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    @media(min-width: 720px) {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-`
-
-const ContainerImage = styled.div`
+const ContainerImage = styled(Container)`
     max-width: 300px;
     max-height: 300px;
-
-    @media(min-width: 720px) {
-        order: 2;
-    }
-`
-
-const ContainerList = styled(Container)`
-    margin-top: 20px;
-
-    @media(min-width: 720px) {
-        order: 1;
-    }
 `
 
 const ListElement = styled.li`
@@ -67,7 +84,7 @@ const ListElement = styled.li`
 
     &::before {
         font-size: 1.5em;
-        margin-right: 20px;
+        margin-right: 10px;
         content: "✓";
         color: white;
         background-color: ${Theme.colors.primary};
@@ -76,6 +93,18 @@ const ListElement = styled.li`
     }
 
 `
+const Input = styled.input`
+    padding: 10px 15px;
+    background-color: ${Theme.colors.grey};
+    outline: none;
+    border: none;
+    border-radius: 5px;
+`
 
+const Block = styled.div`
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    `
 
 export default CheckList

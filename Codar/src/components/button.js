@@ -7,7 +7,7 @@ const Button = styled.button`
     display: flex;
     width: ${props => props.width ? props.width : '100%'};
     justify-content: center;
-    padding: 10px 40px;
+    padding: 10px 0px;
     background-color: ${props => props.outlined ? 'white' : primary};
     border: ${props => props.outlined ? 'none' : '2px solid ' + primary};
     border-radius: 8px;
@@ -16,15 +16,17 @@ const Button = styled.button`
     cursor: pointer;
     outline: none;
 
-    font-size: 1em;
-    &:hover {
-        background-color: ${props => props.outlined ? primary : 'white'};
-        color: ${props => props.outlined ? 'white' : primary};
-    }
+    max-width: ${props => props.maxWidth ? props.maxWidth : '200px'};
 
-    @media(min-width: 720px) {
-        width: ${props => props.mediaWidth || '100%'};
-    }
+font-size: 1em;
+    &:hover {
+    background-color: ${props => props.outlined ? primary : 'white'};
+    color: ${props => props.outlined ? 'white' : primary};
+}
+
+@media(min-width: 720px) {
+    width: ${props => props.mediaWidth || '100%'};
+}
 `
 
 
