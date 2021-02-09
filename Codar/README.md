@@ -1,11 +1,17 @@
-Desafio realizado do site https://www.devchallenge.com.br/
-Desafio Codar:
+# Codar
 
-Versão Desktop
-![alt text](https://raw.githubusercontent.com/Ruanrls/DevChallenge/master/Codar/public/design/desktop.png)
+[Link do github](https://github.com/Lorenalgm/codar)
 
-Versão Mobile
-![alt text](https://raw.githubusercontent.com/Ruanrls/DevChallenge/master/Codar/public/design/mobile.png)
+# Resultados
 
+## Desktop
 
-Resultados:
+* ![Imagem de resultado desktop](/Codar/Results/Result-Desktop.png)
+* ![Imagem de resultado desktop](/Codar/Results/Result-Desktop-Bottom.png)
+
+## Mobile
+
+* ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Top.png)
+* ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Checklist.png)
+* ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Review.png)
+* ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Bottom.png)
