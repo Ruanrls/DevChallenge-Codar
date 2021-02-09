@@ -52,6 +52,10 @@ const HeaderFont = styled.text`
     color: ${Theme.colors.primary};
     font-size: 3.5em;
     font-weight: bolder;
+
+    @media(max-width: 720px) {
+        font-size: 2em;
+    }
 `
 
 const TextContainer = styled(Container)`

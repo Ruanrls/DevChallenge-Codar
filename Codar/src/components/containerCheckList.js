@@ -38,11 +38,11 @@ const CheckList = () => {
 
             <Container >
                 <Block />
-
+                <Block />
                 <Container
-                    style={{ height: '140px', marginTop: '60px' }}
+                    style={{ height: '200px', marginTop: '60px' }}
                     column align="center" justify="space-evenly"
-                    flex="4"
+                    flex="6"
                     mediaOptions="align-items: flex-start;"
                 >
                     <text style={{ fontWeight: 'bolder', fontSize: 20 }}>
@@ -50,18 +50,18 @@ const CheckList = () => {
                     </text>
 
                     <Container
-                        style={{ width: '45%' }}
                         column
                         justify="space-evenly"
-                        mediaOptions="flex-direction: row;"
+                        mediaOptions="flex-direction: row; justify-content: space-between; min-width: 400px;"
                     >
                         <Input placeholder="Celular" />
-                        <Button >
+                        <Button maxWidth="500px" mediaWidth="150px">
                             Ligamos para você
                         </Button>
                     </Container>
                 </Container>
 
+                <Block />
                 <Block />
             </Container>
         </>
@@ -105,6 +105,9 @@ const Block = styled.div`
     display: flex;
     flex: 1;
     flex-direction: row;
-    `
+
+
+
+`
 
 export default CheckList
