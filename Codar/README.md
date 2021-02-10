@@ -1,6 +1,10 @@
 # Codar
 
 [Link do desafio](https://github.com/Lorenalgm/codar)
+[Link do desafio (Versão desktop)](https://raw.githubusercontent.com/Lorenalgm/codar/master/design/desktop.png)
+[Link do desafio (Versão desktop)](https://raw.githubusercontent.com/Lorenalgm/codar/master/design/mobile.png)
+
+#### Implementado em: * NextJs *
 
 # Resultados
 
