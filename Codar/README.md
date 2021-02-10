@@ -1,6 +1,6 @@
 # Codar
 
-[Link do github](https://github.com/Lorenalgm/codar)
+[Link do desafio](https://github.com/Lorenalgm/codar)
 
 # Resultados
 
