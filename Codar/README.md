@@ -14,7 +14,7 @@
 * ![Imagem de resultado desktop](/Codar/Results/Result-Desktop-Bottom.png)
 
 ## Mobile
-
+| | |
 |---|---|
 | ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Top.png)       | ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Checklist.png) |
 | ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Review.png)    | ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Bottom.png)    |
