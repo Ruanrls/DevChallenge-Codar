@@ -15,5 +15,7 @@
 
 ## Mobile
 
-| ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Top.png)       | ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Review.png)
-| ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Checklist.png) | ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Bottom.png)
+| Desktop                                                                   | Mobile                                                                 |
+|---------------------------------------------------------------------------|------------------------------------------------------------------------|
+| ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Top.png)       | ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Review.png) |
+| ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Checklist.png) | ![Imagem de resultado mobile](/Codar/Results/Result-Mobile-Bottom.png) |
