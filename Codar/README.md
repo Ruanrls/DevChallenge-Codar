@@ -2,7 +2,7 @@
 
 [Menu](https://github.com/Ruanrls/DevChallenge)
 
-[Link do desafio](https://github.com/Lorenalgm/codar)
+<a href="https://github.com/Lorenalgm/codar" target="_blank" > Link do desafio </a>
 
 [Link do desafio (Versão desktop)](https://raw.githubusercontent.com/Lorenalgm/codar/master/design/desktop.png)
 
